@@ -81,7 +81,7 @@ void checkCollision(std::vector<sf::RectangleShape> &snake, sf::RectangleShape *
 }
 
 int main() {
-  sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Fourier");
+  sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Snake");
   window.setPosition(sf::Vector2i(sf::VideoMode::getDesktopMode().width / 2 - WIDTH / 2,
                                   sf::VideoMode::getDesktopMode().height / 2 - HEIGHT / 2));
   window.setFramerateLimit(5);
